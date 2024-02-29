@@ -1,7 +1,21 @@
-
+import HeroSection from "@/components/HeroSection";
+import FeaturedCourses from "@/components/FeaturedCourses";
+import WhyChooseUs from "@/components/WhyChooseUs";
+import MusicSchoolTestimonials from "@/components/MusicSchoolTestimonials";
+import UpcomingWebinars from "@/components/UpcomingWebinars";
+import Instructors from "@/components/Instructors";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline text-center">namesta</h1>
+    <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
+    <HeroSection />
+    <FeaturedCourses />
+    <WhyChooseUs />
+    <MusicSchoolTestimonials />
+    <UpcomingWebinars />
+    <Instructors />
+    <Footer />
+    </main>
   );
 }
