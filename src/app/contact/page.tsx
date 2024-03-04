@@ -11,8 +11,7 @@ function page() {
         <h1 className="relative z-10 text-7xl bg-clip-text text-transparent bg-gradient-to-b text-white  text-center font-sans font-bold">
           Contact Us
         </h1>
-        <p className="text-neutral-500 max-w-lg mx-auto mt-10 text-[15px] text-center relative z-10">
-          We're here to help with questions about our courses, programs or events. Reach out and let us know how we can assist you in your musical journey.
+        <p className="text-neutral-500 max-w-lg mx-auto mt-10 text-[15px] text-center relative z-10"> We are here to help with questions about our courses, programs or events. Reach out and let us know how we can assist you in your musical journey.
         </p>
         <input
           type="email"
